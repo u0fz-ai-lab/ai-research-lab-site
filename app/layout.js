@@ -12,7 +12,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
 	return (
 		<html lang="en">
-			<body className="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 px-10 py-5 text-base md:gap-20 md:py-12 ">
+			<body className="mx-auto flex min-h-screen max-w-[760px] flex-col gap-9 px-10 py-5 text-base md:gap-20 md:py-12 ">
 				<Header />
 				<div className={inter.className}>{children}</div>
 			</body>
