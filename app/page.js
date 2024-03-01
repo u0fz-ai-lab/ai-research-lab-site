@@ -1,7 +1,7 @@
 /**
  * v0 by Vercel.
  * @see https://v0.dev/t/tMcqUdBtaV6
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ * Documentation: https://v0.deyv/docs#integrating-generated-code-into-your-nextjs-app
  */
 import Link from "next/link"
 import { Input } from "@/components/ui/input"
@@ -22,13 +22,13 @@ export default function Component() {
                 className="text-sm font-medium tracking-wide border-b-2 border-transparent dark:text-gray-400 dark:group-hover:text-gray-300 dark:active:text-gray-300 dark:visited:text-gray-300 dark:hover:text-gray-200"
                 href="#"
               >
-                Articles
+                About
               </Link>
               <Link
                 className="text-sm font-medium tracking-wide border-b-2 border-indigo-500 dark:text-gray-400 dark:group-hover:text-gray-300 dark:active:text-gray-300 dark:visited:text-gray-300 dark:hover:text-gray-200"
                 href="#"
               >
-                About
+                Papers
               </Link>
               <Link
                 className="text-sm font-medium tracking-wide border-b-2 border-transparent dark:text-gray-400 dark:group-hover:text-gray-300 dark:active:text-gray-300 dark:visited:text-gray-300 dark:hover:text-gray-200"
