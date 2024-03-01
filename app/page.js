@@ -40,7 +40,7 @@ export default function Component() {
           </div>
         </div>
       </header>
-      <main className="flex items-center py-10 lg:py-16">
+      {/* <main className="flex items-center py-10 lg:py-16">
         <div className="container prose prose-gray mx-auto dark:prose-invert">
           <div className="space-y-2 not-prose">
             <h1 className="text-4xl font-extrabold tracking-tight lg:text-5xl lg:leading-[3.5rem]">
@@ -118,7 +118,7 @@ export default function Component() {
             </div>
           </form>
         </div>
-      </div>
+      </div> */}
       <section className="bg-gray-200 dark:bg-gray-800 py-10 lg:py-16">
         <div className="container mx-auto">
           <h2 className="text-3xl font-bold text-center">Download Research Papers</h2>
