@@ -5,6 +5,79 @@ import { Button } from "@/components/ui/button";
 export default function ContactPage() {
   return (
     <div className="grid min-h-screen bg-gray-100 grid-rows-[auto_1fr_auto] dark:bg-gray-900">
+      
+      <div className="border-t border-gray-200 dark:border-gray-800">
+        <div className="container px-4 py-6 prose prose-sm mx-auto text-gray-500 dark:prose-invert dark:text-gray-400">
+          <div className="space-y-2 not-prose">
+            <h2 className="text-2xl font-extrabold tracking-tight lg:text-3xl">
+              Our Employees
+            </h2>
+          </div>
+          <div className="grid gap-4 md:grid-cols-2 mt-4">
+            {/* Employee Card */}
+            <div className="space-y-2 flex items-center p-4 bg-white shadow rounded-lg">
+              <img
+                className="w-16 h-16 rounded-full"
+                src="employee_image_url"
+                alt="Employee Name"
+              />
+              <div className="ml-4">
+                <h2 className="font-bold">Employee Name</h2>
+                <h4 className = "font-semibold">Contact Details</h4>
+                <p>cell icon</p>
+                <p>email icon</p>
+                <p>github icon</p>
+              </div>
+            </div>
+            <div className="space-y-2 flex items-center p-4 bg-white shadow rounded-lg">
+              <img
+                className="w-16 h-16 rounded-full"
+                src="employee_image_url"
+                alt="Employee Name"
+              />
+              <div className="ml-4">
+                <h2 className="font-bold">Employee Name</h2>
+                <h4 className = "font-semibold">Contact Details</h4>
+                <p>cell icon</p>
+                <p>email icon</p>
+                <p>github icon</p>
+              </div>
+            </div>
+
+            <div className="space-y-2 flex items-center p-4 bg-white shadow rounded-lg">
+              <img
+                className="w-16 h-16 rounded-full"
+                src="employee_image_url"
+                alt="Employee Name"
+              />
+              <div className="ml-4">
+                <h2 className="font-bold">Employee Name</h2>
+                <h4 className = "font-semibold">Contact Details</h4>
+                <p>cell icon</p>
+                <p>email icon</p>
+                <p>github icon</p>
+              </div>
+            </div>
+            <div className="space-y-2 flex items-center p-4 bg-white shadow rounded-lg">
+              <img
+                className="w-16 h-16 rounded-full"
+                src="employee_image_url"
+                alt="Employee Name"
+              />
+              <div className="ml-4">
+                <h2 className="font-bold">Employee Name</h2>
+                <h4 className = "font-semibold">Contact Details</h4>
+                <p>cell icon</p>
+                <p>email icon</p>
+                <p>github icon</p>
+              </div>
+            </div>
+
+            {/* Repeat for other cards */}
+          </div>
+        </div>
+      </div>
+
       <div className="border-t border-gray-200 dark:border-gray-800">
         <div className="container px-4 py-6 prose prose-sm mx-auto text-gray-500 dark:prose-invert dark:text-gray-400">
           <div className="space-y-2 not-prose">
@@ -50,66 +123,6 @@ export default function ContactPage() {
         </div>
       </div>
 
-      <div className="border-t border-gray-200 dark:border-gray-800">
-        <div className="container px-4 py-6 prose prose-sm mx-auto text-gray-500 dark:prose-invert dark:text-gray-400">
-          <div className="space-y-2 not-prose">
-            <h2 className="text-2xl font-extrabold tracking-tight lg:text-3xl">
-              Our Employees
-            </h2>
-          </div>
-          <div className="grid gap-4 md:grid-cols-2">
-            {/* Employee Card */}
-            <div className="space-y-2 flex items-center">
-              <img
-                className="w-16 h-16 rounded-full"
-                src="employee_image_url"
-                alt="Employee Name"
-              />
-              <div>
-                <h3 className="font-bold">Employee Name</h3>
-                <p>Contact Details</p>
-              </div>
-            </div>
-
-            <div className="space-y-2 flex items-center">
-              <img
-                className="w-16 h-16 rounded-full"
-                src="employee_image_url"
-                alt="Employee Name"
-              />
-              <div>
-                <h3 className="font-bold">Employee Name</h3>
-                <p>Contact Details</p>
-              </div>
-            </div>
-
-            <div className="space-y-2 flex items-center">
-              <img
-                className="w-16 h-16 rounded-full"
-                src="employee_image_url"
-                alt="Employee Name"
-              />
-              <div>
-                <h3 className="font-bold">Employee Name</h3>
-                <p>Contact Details</p>
-              </div>
-            </div>
-
-            <div className="space-y-2 flex items-center">
-              <img
-                className="w-16 h-16 rounded-full"
-                src="employee_image_url"
-                alt="Employee Name"
-              />
-              <div>
-                <h3 className="font-bold">Employee Name</h3>
-                <p>Contact Details</p>
-              </div>
-            </div>
-            {/* Add more employee cards as needed */}
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
