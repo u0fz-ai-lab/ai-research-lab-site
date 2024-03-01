@@ -25,7 +25,7 @@ const Header = () => {
           </Link>
           <Link
             className="text-sm font-medium tracking-wide border-b-2 border-transparent dark:text-gray-400 dark:group-hover:text-gray-300 dark:active:text-gray-300 dark:visited:text-gray-300 dark:hover:text-gray-200"
-            href="/"
+            href="/contact"
           >
             Contact
           </Link>
