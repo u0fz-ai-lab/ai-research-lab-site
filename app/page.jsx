@@ -11,8 +11,7 @@ import {
 	CardHeader,
 	CardTitle,
 } from "@/components/ui/card";
-import { Cloud, Download } from "lucide-react";
-import { ArrowRight } from "lucide-react";
+import { Download } from "lucide-react";
 import { LucideGithub } from "lucide-react";
 
 export default function Home() {

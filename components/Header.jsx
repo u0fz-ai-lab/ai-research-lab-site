@@ -1,5 +1,6 @@
-import { GithubIcon } from "lucide-react";
+import { GithubIcon, Linkedin, Sun } from "lucide-react";
 import Link from "next/link";
+import { Button } from "./ui/button";
 
 const Header = () => {
 	return (
@@ -17,9 +18,14 @@ const Header = () => {
 					<Link href="/posts">blog</Link>
 				</div>
 			</div>
-			<Link href="/">
-				<GithubIcon />
-			</Link>
+			<div className="flex items-center gap-3 justify-between">
+				<Link href="/">
+					<GithubIcon />
+				</Link>
+				<Button variant="outline">
+					<Sun />
+				</Button>
+			</div>
 		</nav>
 	);
 };
