@@ -32,7 +32,7 @@ export const team = [
 export const papers = [
 	{
 		name: "Generative Agents: A Simulacra Of Human Behavior",
-		date: "",
+		date: "February 15, 2024",
 		source: "",
 		link: "",
 	},
@@ -46,13 +46,15 @@ export const papers = [
 
 export const posts = [
 	{
-		title: "",
-		date: "",
-		summary: "",
+		title: "Gaming (Vidya)",
+		date: "January 20, 2024",
+		summary:
+			"sjsdo  sjidmi smkmc skdmkcmk sjsdo  sjidmi smkmc skdmkcmk smdkmkm smkdmcm msdmsmmk smdmscms smodmsmcsmp odkocos smdkmkm smkdmcm msdmsmmk smdmscms smodmsmcsmp odkocos",
 	},
 	{
-		title: "",
-		date: "",
-		summary: "",
+		title: "Bro",
+		date: "2024-02-14",
+		summary:
+			"sjsdo  sjsdo  sjidmi smkmc skdmkcmk smdkmkm smkdmcm sjsdo  sjidmi smkmc skdmkcmk smdkmkm smkdmcm msdmsmmk smdmscms smodmsmcsmp odkocos msdmsmmk smdmscms smodmsmcsmp odkocos sjidmi smkmc skdmkcmk smdkmkm smkdmcm msdmsmmk smdmscms smodmsmcsmp odkocos",
 	},
 ];
