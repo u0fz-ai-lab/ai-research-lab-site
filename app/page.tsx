@@ -8,6 +8,11 @@ export default function Home() {
 					hopefully take us closer to AGI
 				</h1>
 			</section>
+			<section className="flex flex-col gap-10">
+				<div className="lfex items-center justify-between">
+					<h1 className="">Recent Publications</h1>
+				</div>
+			</section>
 		</main>
 	);
 }
