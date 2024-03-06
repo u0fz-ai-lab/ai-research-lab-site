@@ -1,0 +1,1 @@
+- Remove Card Shadcn Component, Try NextUi
