@@ -24,6 +24,7 @@ const Header = () => {
 					<Link
 						className="no-underline"
 						href="https://github.com/x0bd"
+						target="_blank"
 					>
 						github
 					</Link>
