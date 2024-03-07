@@ -18,7 +18,7 @@ export default function RootLayout({
 }>) {
 	return (
 		<html lang="en">
-			<body className="mx-auto flex min-h-screen max-w-[760px]  flex-col gap-9 px-10 py-5 text-base md:gap-20 md:py-12">
+			<body className="mx-auto prose dark:prose-invert flex min-h-screen max-w-[760px]  flex-col gap-9 px-10 py-5 text-base md:gap-20 md:py-12">
 				<ThemeProvider attribute="class" defaultTheme="light">
 					<Header />
 					<div className={inter.className}>{children}</div>
