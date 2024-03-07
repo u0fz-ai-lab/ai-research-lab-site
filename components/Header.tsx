@@ -1,7 +1,5 @@
 import Link from "next/link";
-import { Button } from "./ui/button";
 import { ThemeSwitch } from "./Switch";
-import { GithubIcon } from "lucide-react";
 
 const Header = () => {
 	return (
@@ -23,12 +21,15 @@ const Header = () => {
 					<Link className="no-underline" href="/blog">
 						blog
 					</Link>
+					<Link
+						className="no-underline"
+						href="https://github.com/x0bd"
+					>
+						github
+					</Link>
 				</div>
 			</div>
 			<div className="flex items-center gap-2 justify-between">
-				<Link className="no-underline" href="https://github.com">
-					<GithubIcon />
-				</Link>
 				<ThemeSwitch />
 			</div>
 		</nav>

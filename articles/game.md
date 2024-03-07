@@ -1,6 +1,6 @@
 ---
-title: "Hello World"
-date: "2023-03-14"
+title: "Building games using Generative Agents"
+date: "2024-03-03"
 ---
 
 Hello World
