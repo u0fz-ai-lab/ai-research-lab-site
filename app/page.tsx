@@ -18,7 +18,7 @@ export default function Home() {
 					<h1 className="font-bold text-xl">Recent Publications</h1>
 					<Link
 						className="underline underline-offset-4"
-						href="/publications"
+						href="/research"
 					>
 						All
 					</Link>

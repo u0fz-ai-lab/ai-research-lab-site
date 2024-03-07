@@ -13,16 +13,16 @@ const Header = () => {
 					aiLab
 				</Link>
 				<div className="flex gap-2 items-center font-semibold text-xl">
-					<Link className="no-underline" href="/publications">
+					<Link className="no-underline" href="/research">
 						research
 					</Link>
-					<Link className="no-underline" href="/about">
-						about
+					<Link className="no-underline" href="/team">
+						team
 					</Link>
-					<Link className="no-underline" href="/posts">
+					<Link className="no-underline" href="/blog">
 						blog
 					</Link>
-					<Link className="no-underline" href="/">
+					<Link className="no-underline" href="https://github.com">
 						source
 					</Link>
 				</div>
