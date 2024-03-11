@@ -1,11 +1,15 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { papers, posts } from "@/data/data";
+import { getSortedPostsData } from "@/lib/posts";
 import { Download, LucideGithub } from "lucide-react";
+import ListItem from "@/components/ListItem";
 
 import Link from "next/link";
 
 export default function Home() {
+	const posts = getSortedPostsData();
+
 	return (
 		<main className="flex items-center gap-20 max-w-4xl flex-col">
 			<section className="flex items-center gap-5 max-w-4xl flex-col">
@@ -56,29 +60,14 @@ export default function Home() {
 			</section>
 			<section className="flex w-full flex-col">
 				<h1 className="font-semibold text-xl">Latest Posts</h1>
-				<div className="flex flex-col gap-12">
+				<ul className="w-full">
 					{posts.slice(0, 2).map((post) => (
-						<Link
-							className="flex flex-col gap-3"
-							href="/"
-							key={post.title}
-						>
-							<div>
-								<h1 className="text-xl font-semibold">
-									{post.title}
-								</h1>
-								<p className="text-sm text-zinc-400">
-									{post.date}
-								</p>
-							</div>
-							<p>{post.summary}</p>
-							<div className="bg-zinc-300 my-7 w-full h-[1px]"></div>
-						</Link>
+						<ListItem key={post.id} post={post} />
 					))}
-				</div>
+				</ul>
 				<Link
 					className="flex items-center underline underline-offset-4 gp-2"
-					href="/"
+					href="/blog"
 				>
 					More{" "}
 				</Link>
