@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { papers, posts } from "@/data/data";
+import { papers } from "@/data/data";
 import { getSortedPostsData } from "@/lib/posts";
 import { Download, LucideGithub } from "lucide-react";
 import ListItem from "@/components/ListItem";
@@ -58,9 +58,9 @@ export default function Home() {
 					))}
 				</div>
 			</section>
-			<section className="flex w-full flex-col">
+			<section className="flex w-full flex-col gap-5">
 				<h1 className="font-semibold text-xl">Latest Posts</h1>
-				<ul className="w-full">
+				<ul className="w-full flex flex-col gap-3">
 					{posts.slice(0, 2).map((post) => (
 						<ListItem key={post.id} post={post} />
 					))}
