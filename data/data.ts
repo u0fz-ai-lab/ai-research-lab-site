@@ -57,6 +57,18 @@ export const papers: paper[] = [
 		source: "",
 		link: "",
 	},
+	{
+		name: "Large Language Models Ethical Alignment",
+		date: "",
+		source: "",
+		link: "",
+	},
+	{
+		name: "The Current State of Foundational Generative Models",
+		date: "",
+		source: "",
+		link: "",
+	},
 ];
 
 export const posts: post[] = [

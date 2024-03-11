@@ -1,5 +1,7 @@
-import PaperCard from "@/components/PaperCard";
-import { posts } from "@/data/data";
+import { Button } from "@/components/ui/button";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { papers, posts } from "@/data/data";
+import { Download, LucideGithub } from "lucide-react";
 
 import Link from "next/link";
 
@@ -23,7 +25,34 @@ export default function Home() {
 						All
 					</Link>
 				</div>
-				<PaperCard />
+				<div className="grid lg:md:grid-cols-2 sm:grid-cols-1 md:gap-4">
+					{papers.slice(0, 2).map((paper) => (
+						<Card
+							key={paper.name}
+							className="flex flex-col p-0 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-900 justify-between"
+						>
+							<Link href="/" target="_blank">
+								<CardHeader className="flex flex-row items-center justify-between">
+									<CardTitle className="font-medium text-lg">
+										{paper.name}
+									</CardTitle>
+								</CardHeader>
+								<CardContent className="flex items-center gap-2">
+									<Link href="">
+										<Button variant="outline">
+											<Download />
+										</Button>
+									</Link>
+									<Link href="">
+										<Button variant="outline">
+											<LucideGithub />
+										</Button>
+									</Link>
+								</CardContent>
+							</Link>
+						</Card>
+					))}
+				</div>
 			</section>
 			<section className="flex w-full flex-col">
 				<h1 className="font-semibold text-xl">Latest Posts</h1>

@@ -9,7 +9,7 @@ import Link from "next/link";
 export default function PaperCard() {
 	return (
 		<div className="grid lg:md:grid-cols-2 sm:grid-cols-1 md:gap-4">
-			{papers.slice(0, 2).map((paper) => (
+			{papers.map((paper) => (
 				<Card
 					key={paper.name}
 					className="flex flex-col p-0 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-900 justify-between"
