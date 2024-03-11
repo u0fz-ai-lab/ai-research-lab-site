@@ -42,6 +42,20 @@ export const team: member[] = [
 		github: "",
 		site: "",
 	},
+	{
+		name: "Musa",
+		picture: "",
+		linkedin: "",
+		github: "",
+		site: "",
+	},
+	{
+		name: "Tino",
+		picture: "",
+		linkedin: "",
+		github: "",
+		site: "",
+	},
 ];
 
 export const papers: paper[] = [
