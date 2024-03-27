@@ -3,7 +3,6 @@ import { Card, CardHeader, CardTitle, CardContent } from "./ui/card";
 import { Button } from "./ui/button";
 import { Download } from "lucide-react";
 import { LucideGithub } from "lucide-react";
-
 import Link from "next/link";
 
 export default function PaperCard() {
@@ -21,11 +20,12 @@ export default function PaperCard() {
 							</CardTitle>
 						</CardHeader>
 						<CardContent className="flex items-center gap-2">
-							<Link href="">
+							{/* download papers  */}
+							<a href={`/published/${paper}`} download>
 								<Button variant="outline">
 									<Download />
 								</Button>
-							</Link>
+							</a>
 							<Link href="">
 								<Button variant="outline">
 									<LucideGithub />

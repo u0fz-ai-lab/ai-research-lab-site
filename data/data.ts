@@ -63,7 +63,7 @@ export const papers: paper[] = [
 		name: "Generative Agents: A Simulacra Of Human Behavior",
 		date: "February 15, 2024",
 		source: "",
-		link: "",
+		link: "2305.07633.pdf Zero Shot LLM.pdf",
 	},
 	{
 		name: "Attention is All you need",
