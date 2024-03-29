@@ -63,25 +63,25 @@ export const papers: paper[] = [
 		name: "Generative Agents: A Simulacra Of Human Behavior",
 		date: "February 15, 2024",
 		source: "",
-		link: "2305.07633.pdf Zero Shot LLM.pdf",
+		link: "/2305.07633.pdf Zero Shot LLM.pdf",
 	},
 	{
 		name: "Attention is All you need",
 		date: "",
 		source: "",
-		link: "",
+		link: "/attention is all you need.pdf",
 	},
 	{
 		name: "Large Language Models Ethical Alignment",
 		date: "",
 		source: "",
-		link: "",
+		link: "/2307.02046 LLM Recommender Systems.pdf",
 	},
 	{
 		name: "The Current State of Foundational Generative Models",
 		date: "",
 		source: "",
-		link: "",
+		link: "/2307.11019.pdf LLM Retrieval Aug.pdf",
 	},
 ];
 

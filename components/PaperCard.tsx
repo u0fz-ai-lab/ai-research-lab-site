@@ -21,7 +21,7 @@ export default function PaperCard() {
 						</CardHeader>
 						<CardContent className="flex items-center gap-2">
 							{/* download papers  */}
-							<a href={`/published/${paper}`} download>
+							<a href={`/published/${paper.link}`} download>
 								<Button variant="outline">
 									<Download />
 								</Button>
