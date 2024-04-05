@@ -3,7 +3,7 @@ export type member = {
 	picture: string;
 	linkedin: string;
 	github: string;
-	site?: string;
+	site: string;
 };
 
 export type paper = {
