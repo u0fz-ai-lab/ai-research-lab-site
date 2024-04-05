@@ -35,25 +35,23 @@ export default function Home() {
 							key={paper.name}
 							className="flex flex-col p-0 transition-all duration-300 hover:-translate-y-1 hover:border-zinc-900 justify-between"
 						>
-							<Link href="/" target="_blank">
-								<CardHeader className="flex flex-row items-center justify-between">
-									<CardTitle className="font-medium text-lg">
-										{paper.name}
-									</CardTitle>
-								</CardHeader>
-								<CardContent className="flex items-center gap-2">
-									<Link href="">
-										<Button variant="outline">
-											<Download />
-										</Button>
-									</Link>
-									<Link href="">
-										<Button variant="outline">
-											<LucideGithub />
-										</Button>
-									</Link>
-								</CardContent>
-							</Link>
+							<CardHeader className="flex flex-row items-center justify-between">
+								<CardTitle className="font-medium text-lg">
+									{paper.name}
+								</CardTitle>
+							</CardHeader>
+							<CardContent className="flex items-center gap-2">
+								<Link href={paper.link}>
+									<Button variant="outline">
+										<Download />
+									</Button>
+								</Link>
+								<Link href="">
+									<Button variant="outline">
+										<LucideGithub />
+									</Button>
+								</Link>
+							</CardContent>
 						</Card>
 					))}
 				</div>
