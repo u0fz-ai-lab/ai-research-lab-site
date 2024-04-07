@@ -1,0 +1,3 @@
+-   Deploy Once You Go Online
+-   Fix Color and Typography
+-   Add a footer
