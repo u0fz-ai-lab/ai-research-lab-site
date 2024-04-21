@@ -2,6 +2,18 @@
   "$schema": "https://ui.shadcn.com/schema.json",
   "style": "default",
   "rsc": true,
+<<<<<<< HEAD
+  "tsx": false,
+  "tailwind": {
+    "config": "tailwind.config.js",
+    "css": "app/globals.css",
+    "baseColor": "gray",
+    "cssVariables": false
+  },
+  "aliases": {
+    "utils": "@/lib/utils",
+    "components": "@/components"
+=======
   "tsx": true,
   "tailwind": {
     "config": "tailwind.config.ts",
@@ -13,5 +25,6 @@
   "aliases": {
     "components": "@/components",
     "utils": "@/lib/utils"
+>>>>>>> b7fe04aa6891406395310dcc7116175a72a204c0
   }
 }

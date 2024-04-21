@@ -20,38 +20,38 @@ export type post = {
 };
 
 export const team: member[] = [
-	{ name: "Musa", picture: "", linkedin: "", github: "", site: "" },
+
 	{
 		name: "Prince",
-		picture: "",
+		picture: "/gumball.jpg",
 		linkedin: "",
 		github: "",
 		site: "",
 	},
 	{
 		name: "Tembo",
-		picture: "",
+		picture: "/makima.jpg",
 		linkedin: "",
 		github: "",
 		site: "",
 	},
 	{
 		name: "Erlson",
-		picture: "",
+		picture: "/geto.jpg",
 		linkedin: "",
 		github: "",
 		site: "",
 	},
 	{
 		name: "Musa",
-		picture: "",
+		picture: "/gojo.jpg",
 		linkedin: "",
 		github: "",
 		site: "",
 	},
 	{
 		name: "Tino",
-		picture: "",
+		picture: "/sukuna.jpg",
 		linkedin: "",
 		github: "",
 		site: "",
