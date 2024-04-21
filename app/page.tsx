@@ -16,7 +16,8 @@ export default function Home() {
 				<h1 className="text-center font-medium text-3xl">
 					We are a bunch of artificial intelligence enjoyers and
 					enthusiasts, who want to share our works, which might
-					hopefully take us closer to AGI
+					hopefully <span className="font-mono">accelerate</span> us
+					closer to Artificial General Intelligence.
 				</h1>
 			</section>
 			<section className="flex w-full flex-col gap-10">
