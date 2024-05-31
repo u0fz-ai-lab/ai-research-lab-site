@@ -1,0 +1,28 @@
+.footer-container {
+  background-color: grey;
+  padding: 20px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-list-left,
+.footer-list-right {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-list-left li {
+  margin-right: 10px;
+}
+
+.footer-list-right li {
+  margin-left: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
