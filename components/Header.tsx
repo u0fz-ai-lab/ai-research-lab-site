@@ -23,7 +23,7 @@ const Header = () => {
 					</Link>
 					<Link
 						className="no-underline"
-						href="https://github.com/"
+						href="https://github.com/u0fz-ai-lab"
 						target="_blank"
 					>
 						github
