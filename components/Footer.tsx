@@ -1,64 +1,44 @@
-import React from "react";
-import "./footer.css";
+import Link from "next/link";
+import { Card } from "./ui/card";
 
-const Footer = () => {
-  return (
-    <div className="footer-container">
-      <div className="flex justify-between items-center">
-        <ul className="footer-list-left">
-          <li>
-            <a href="./app/about/page.jsx">About</a>
-          </li>
-          <li>
-            <a href="./team/page.tsx">Team</a>
-          </li>
-          <li>
-            <a href="./research/page.tsx">Research</a>
-          </li>
-        </ul>
-        <ul className="footer-list-right">
-          <li>
-            <a
-              href="https://github.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.facebook.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Facebook
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.twitter.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Twitter
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.instagram.com/your-username"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Instagram
-            </a>
-          </li>
-        </ul>
-      </div>
-      <br />
-      <h1>&copy; 2024 AiLab. All Rights Reserved</h1>
-    </div>
-  );
-};
-
-export default Footer;
+export default function Footer() {
+	return (
+		<Card className="p-2">
+			<div className="flex justify-between items-center">
+				<div className="flex items-center font-mono gap-2">
+					<Link
+						className="underline underline-offset-2"
+						target="_blank"
+						href="./about"
+					>
+						About
+					</Link>
+					<Link
+						className="underline underline-offset-2"
+						target="_blank"
+						href="./team"
+					>
+						Team
+					</Link>
+					<Link
+						className="underline underline-offset-2"
+						target="_blank"
+						href="./research"
+					>
+						Research
+					</Link>
+					<Link
+						className="underline underline-offset-2"
+						target="_blank"
+						href="https://github.com/u0fz-ai-lab"
+					>
+						Github
+					</Link>
+				</div>
+				<div>
+					<h1>&copy; 2024 AiLab</h1>
+				</div>
+			</div>
+		</Card>
+	);
+}

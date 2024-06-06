@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import { ThemeProvider } from "@/lib/theme-provider";
 import Footer from "@/components/Footer";
+import Foot from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -23,7 +24,7 @@ export default function RootLayout({
 				<ThemeProvider attribute="class" defaultTheme="light">
 					<Header />
 					<div className={inter.className}>{children}</div>
-					<Footer />
+					<Foot />
 				</ThemeProvider>
 			</body>
 		</html>
